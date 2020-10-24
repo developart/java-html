@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div.bloque1 {
+    background-color: grey;
+    padding: 20px;
+    margin: 10px 10px 10px 10px;
+}
+
+div.bloque2 {
+    background-color: rgba(128, 128, 128, 0.767);
+    padding: 20px;
+    margin: 10px 10px 10px 10px;
+}
+
+.phone {
+    background-color: yellow;
+    padding: 20px;
+    margin: 10px 10px 10px 10px;
+}
+
+.tablet {
+    background-color: yellow;
+    padding: 20px;
+    margin: 10px 10px 10px 10px;
+}
+
+.desktop {
+    background-color: yellow;
+    padding: 20px;
+    margin: 10px 10px 10px 10px;
+}
+
+@media screen and (max-width: 480px) {
+    .tablet,
+    .desktop {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1023px) {
+    .phone,
+    .desktop {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .phone,
+    .tablet {
+        display: none;
+    }
+}

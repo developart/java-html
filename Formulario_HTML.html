@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Mi Formulario de Registro</title>
+</head>
+
+<body>
+    <h1>Formulario de Registro</h1>
+    <form action="process.php" method="post">
+
+        <label for="nombre">Nombre:&nbsp;</label>
+        <input type="text" id="nombre" name="nombre">
+        <br><br>
+        <label for="apellido">Apellido:&nbsp;</label>
+        <input type="text" id="apellido" name="apellido">
+        <br><br>
+        <label for="email">Email:&nbsp;</label>
+        <input type="email" id="email" name="email">
+        <br><br>
+        <label for="password">Contraseña:&nbsp;</label>
+        <input type="password" id="password" name="password">
+        <br><br>
+        <label for="confirmar">Confirmar Contraseña:&nbsp;</label>
+        <input type="password" id="confirmar" name="confirmar">
+        <br><br>
+        <label for="cumpleaños">Cumpleaños:&nbsp;</label>
+        <input type="date" id="cumpleaños" name="cumpleaños">
+        <br><br>
+        <label for="masculino">Masculino:&nbsp;</label>
+        <input type="radio" id="masculino" name="genero" value="masculino">
+        <label for="femenino">Femenino:&nbsp;</label>
+        <input type="radio" id="femenino" name="genero" value="femenino">
+        <label for="otro">Otro:&nbsp;</label>
+        <input type="radio" id="otro" name="genero" value="otro">
+        <br><br>
+        <h2>Una breve descripción de ti:&nbsp;</h2>
+        <textarea name="description"></textarea>
+        <h3>Lenguaje Favorito:&nbsp;</h3>
+        <input list="language" name="language">
+        <datalist id="language">
+            <option value="JavaScript">
+            <option value="Pyton">
+            <option value="Pascal">
+            <option value="SQL">
+            <option value="php">
+        </datalist>
+        <br><br>
+        <input type="submit">
+    </form>
+</body>
+
+</html>

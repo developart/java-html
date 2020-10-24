@@ -1,0 +1,79 @@
+/*CSS reset settings here*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 970px;
+    height: 800px;
+    margin: 0 auto;
+    background-color: #1c335d;
+    padding: 20px;
+}
+
+.header {
+    width: auto;
+    height: auto;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    background-color: #cf3536;
+    border-radius: 15px;
+    color: #ffffff;
+}
+
+.navbar {
+    min-height: 300px;
+    width: 195px;
+    margin-left: 2px;
+    margin-right: 8px;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px;
+    background-color: #297d8c;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+.main-content {
+    width: 700px;
+    height: 540px;
+    margin: 0px;
+    margin-bottom: 55px;
+    padding: 20px;
+    background-color: #0e1721;
+    display: inline-block;
+    border-radius: 15px;
+    color: #ffffff;
+}
+
+.menu {
+    color: #ffffff;
+}
+
+span {
+    color: blueviolet;
+}
+
+a {
+    color: #297d8c;
+}
+
+p {
+    color: #ffffff;
+}
+
+ul {
+    padding-left: 15px;
+    color: white;
+}
+
+.footer {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    background-color: #5d6673;
+    padding: 20px;
+    border-radius: 15px;
+}
